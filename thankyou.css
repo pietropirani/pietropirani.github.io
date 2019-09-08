@@ -33,12 +33,13 @@ h1{
 }
 
 #homebutton{
-  margin-left: 40%;
+  margin-left: 42%;
   background-color: #77a8a8;
   color: white;
-  width: 300px;
+  width: 250px;
   height: 30px;
   border-radius: 15px;
+  font-size: 20px;
 
 }
 
