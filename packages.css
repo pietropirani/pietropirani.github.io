@@ -1,4 +1,6 @@
 
+
+
 nav{
   margin-bottom: 0%;
 }
@@ -38,7 +40,7 @@ p{
 }
 
 
-#button{
+#book-btn{
   border-radius: 35px;
   height: 50px;
   width: 130px;
@@ -49,7 +51,7 @@ p{
 
 }
 
-#button2{
+#book-btn2{
   border-radius: 35px;
   height: 50px;
   width: 130px;
@@ -61,7 +63,7 @@ p{
 
 }
 
-#button3{
+#contact-btn{
   border-radius: 35px;
   height: 50px;
   width: 180px;

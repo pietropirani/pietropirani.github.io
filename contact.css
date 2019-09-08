@@ -16,17 +16,16 @@ body{
 }
 
 
-#button3{
-  border-radius: 35px;
-  height: 35px;
-  width: 400px;
+.send-btn{
+  border-radius: 10px;
   background-color: #77a8a8;
-  background-size: 200px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-  margin-right: 35%;
-  margin-left: 35%;
-  margin-top: 2.5%;
+  margin-left: 47.5%;
+  padding: 0.4%;
+  margin-top: 5%;
+
+
 
 }
 
@@ -55,7 +54,7 @@ body{
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-left: 45%;
+  margin-left: 46%;
 }
 
 
