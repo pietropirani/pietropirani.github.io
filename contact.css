@@ -15,64 +15,24 @@ body{
   background-color: #f0f0f0;
 }
 
-#box{
-  width: 1000px;
-  height: 200px;
 
-}
-
-#messagebox{
-
-  margin-left: 10%;
-}
-
-#fnbox{
-  width: 400px;
-  height: 30px;
-}
-
-#lnbox{
-  width: 400px;
-  height: 30px;
-
-}
-
-#emailbox{
-  width: 400px;
-  height: 30px;
-}
-
-#subjectbox{
-  width: 400px;
-  height: 30px;
-}
-
-#fn{
-  margin-left: 9%;
-}
-
-#ln{
-  margin-left: 8.5%;
-}
-
-#email{
-  margin-left: 11.5%;
-}
-
-#subject{
-  margin-left: 10%;
-}
-
-#button{
+#button3{
   border-radius: 35px;
-  height: 30px;
-  width: 1020px;
+  height: 35px;
+  width: 400px;
   background-color: #77a8a8;
   background-size: 200px;
   font-size: 20px;
-  margin-left: 14%;
   color: white;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 2.5%;
 
+}
+
+.form-row{
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .fa {
@@ -95,15 +55,10 @@ body{
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-left: 43.5%;
+  margin-left: 45%;
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-  margin-left: 0.5%;
-}
+
 
 /* Instagram */
 .fa-instagram {

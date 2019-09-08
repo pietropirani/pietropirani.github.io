@@ -4,9 +4,15 @@ margin-right: 5%;
 
 }
 
+h2{
+  text-align: center;
+  margin-top: 0%;
+}
+
 h1{
   text-align: center;
   margin-top: 0.5%;
+  margin-bottom: 0%;
 }
 
 .thumbnail{
@@ -52,15 +58,11 @@ nav a:hover{
 .fa-facebook {
   background: #3B5998;
   color: white;
-  margin-left: 43.5%;
+  margin-left: 45%;
+  
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-  margin-left: 0.5%;
-}
+
 
 /* Instagram */
 .fa-instagram {

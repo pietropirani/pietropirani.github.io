@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <html lang="en">
 
   </head>
   <body>
 
     <nav class="navbar  navbar-inverse">
       <div class="navbar-header">
-        <a class="navbar-brand" href="landingpage.html">Home</a>
+        <a class="navbar-brand" href="index.html">Home</a>
 
       </div>
 
       <ul class="nav navbar-nav">
 
-        <li><a href="new_signup.html">Full Gallery</a></li>
+
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="clients.html">Happy Clients</a></li>
         <li><a href="packages.html">Packages</a></li>
 
 
@@ -40,36 +40,50 @@
 <hr>
 <hr>
 
-<form class="contact" action="thankyou.html" method="get">
-  <label id="fn"for="name">First Name</label>
-  <input id="fnbox"type="text" name="firstname"  value="">
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputName">First Name</label>
+      <input type="name" class="form-control" id="inputname" placeholder="Name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputLastname">Last Name</label>
+      <input type="lastname" class="form-control" id="inputLastname" placeholder="Last Name">
+    </div>
+  </div>
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="inputEmail">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+  </div>
+  </div>
+<div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="inputSubject">Subject</label>
+    <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+  </div>
+  </div>
 
-  <label id="ln"for="lastname">Last Name</label>
-  <input id="lnbox"type="text" name="lastname" value="">
-  <p></p>
-
-  <label id="email"for="email">Email</label>
-  <input id="emailbox"type="email" name="" value="">
-
-  <label id="subject"for="subject">Subject</label>
-  <input id="subjectbox"type="text" name="subject" value="">
-  <p></p>
-
-  <label id="messagebox"for="message">Message</label>
-  <input id="box"type="text" name="message" value="">
-  <hr>
-
-
-  <input id="button"type="submit" name="go" value="Send">
-
-</form>
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="City">
+    </div>
+      <div class="form-group col-md-6">
+        <label for="inputCountry">Country</label>
+        <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+      </div>
+</div>
+<div>
+  <form class="contact" action="thankyou.html" method="post">
+  <input id="button3" type="submit" name="go" value="Send"><a href="thankyou.html"></a>
+  </form></div>
 
 <hr>
 <hr>
 
 <!-- Add font awesome icons -->
 <a href="https://www.facebook.com/jesspirani/timeline?lst=100007315961446%3A100001066346530%3A1567478085" class="fa fa-facebook"></a>
-<a href="https://www.linkedin.com/in/luizkowalski/" class="fa fa-twitter"></a>
 <a href="https://www.instagram.com/jesspirani/" class="fa fa-instagram"></a>
 
 
