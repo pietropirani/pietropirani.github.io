@@ -14,9 +14,12 @@ h2{
 
 p{
   text-align: center;
-  padding: 5%;
+  padding: 20px;
   font-weight: lighter;
   font-size: 20px;
+  max-width: 100%;
+  word-wrap: break-word;
+
 }
 
 .grid-container {
@@ -29,48 +32,93 @@ p{
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 5%;
+
+
+
 }
 
 .grid-container > div {
   background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 20px;
   font-size: 30px;
 
+
+
+
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 90px;
+  grid-column-gap: 40px;
+  background-color: white;
+  padding: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5%;
+  max-width: 100%;
+  word-wrap: break-word;
+  width: 100%;
+
+
+
 }
 
+.grid-container2 > div {
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  max-width: 100%;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.contact {
+  margin-top: auto;
+}
 
 #book-btn{
   border-radius: 35px;
-  height: 50px;
-  width: 130px;
   background-color: #77a8a8;
   background-size: 20px;
   font-size: 20px;
   color: white;
-
+  padding: 2%;
+  max-width: 100%;
+  word-wrap: break-word;
+  height: 50px;
+  width: 100%;
 }
 
 #book-btn2{
   border-radius: 35px;
-  height: 50px;
-  width: 130px;
+  width: auto;
   background-color: #77a8a8;
   background-size: 20px;
   font-size: 20px;
   color: white;
-  margin-top: 24%;
-
+  padding: 2%;
+  max-width: 100%;
+  word-wrap: break-word;
+  height: 50px;
+  width: 100%;
 }
 
 #contact-btn{
   border-radius: 35px;
-  height: 50px;
-  width: 180px;
+  width: auto;
   background-color: #77a8a8;
   background-size: 20px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
-
+  max-width: 100%;
+  word-wrap: break-word;
+  height: 50px;
+  width: 70%;
 
 }
