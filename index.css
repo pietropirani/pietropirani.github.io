@@ -36,7 +36,7 @@ p{
   margin-left: 1%;
 }
 
-nav a:hover{
+nav :hover{
   color: red;
 }
 

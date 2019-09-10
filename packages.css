@@ -86,7 +86,7 @@ p{
   border-radius: 35px;
   background-color: #77a8a8;
   background-size: 20px;
-  font-size: 20px;
+  font-size: 23px;
   color: white;
   padding: 2%;
   max-width: 100%;
@@ -100,7 +100,7 @@ p{
   width: auto;
   background-color: #77a8a8;
   background-size: 20px;
-  font-size: 20px;
+  font-size: 23px;
   color: white;
   padding: 2%;
   max-width: 100%;
@@ -114,11 +114,11 @@ p{
   width: auto;
   background-color: #77a8a8;
   background-size: 20px;
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   max-width: 100%;
   word-wrap: break-word;
-  height: 50px;
-  width: 70%;
+  height: 40px;
+  width: 30%;
 
 }
