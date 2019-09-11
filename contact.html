@@ -14,22 +14,21 @@
   <body>
 
     <nav class="navbar  navbar-inverse">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">Home</a>
-
-      </div>
-
-      <ul class="nav navbar-nav">
+        <nav id="page-nav">
+              <!-- [THE HAMBURGER] -->
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
 
 
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="packages.html">Packages</a></li>
+              <!-- [MENU ITEMS] -->
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
-
-
-      </ul>
-
-    </nav>
+              </ul>
+            </nav>
+          </nav>
 
 <div class="container">
   <h1>Interested? Let's have a chat! </h1>
@@ -40,7 +39,7 @@
 <hr>
 <hr>
 
-<form action="mailto:pietrofsn@gmail.com" method="post" enctype="text/plain">
+<form method="post" enctype="text/plain">
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputName">First Name</label>
